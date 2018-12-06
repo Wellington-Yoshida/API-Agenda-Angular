@@ -1,0 +1,11 @@
+<div class="row mx-auto">
+  <div class="col-sm-3 rowCard text-center" *ngFor="let agenda of agendas.data">
+    <div class="card border-primary mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Agenda</h5>
+        <p class="card-text">{{ agenda.nome }}</p>
+        <a href="#" class="btn btn-primary">Ver contatos</a>
+      </div>
+    </div>
+  </div>
+</div>
